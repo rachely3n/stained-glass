@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E748569A1DE2B2E200284A65 /* babyme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E74856991DE2B2E200284A65 /* babyme.jpg */; };
 		E7A752661DE263BE008C5BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A752651DE263BE008C5BD2 /* AppDelegate.swift */; };
 		E7A752681DE263BE008C5BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A752671DE263BE008C5BD2 /* ViewController.swift */; };
 		E7A7526B1DE263BE008C5BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A752691DE263BE008C5BD2 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		E7A752701DE263BE008C5BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A7526E1DE263BE008C5BD2 /* LaunchScreen.storyboard */; };
 		E7A7527B1DE263BE008C5BD2 /* stainedGlassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7527A1DE263BE008C5BD2 /* stainedGlassTests.swift */; };
 		E7A752861DE263BE008C5BD2 /* stainedGlassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A752851DE263BE008C5BD2 /* stainedGlassUITests.swift */; };
+		E7A752941DE26560008C5BD2 /* StainedGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A752931DE26560008C5BD2 /* StainedGlass.swift */; };
+		E7A752961DE26D47008C5BD2 /* doge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7A752951DE26D47008C5BD2 /* doge.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E74856991DE2B2E200284A65 /* babyme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = babyme.jpg; path = ../../../../../Downloads/babyme.jpg; sourceTree = "<group>"; };
 		E7A752621DE263BE008C5BD2 /* stainedGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stainedGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A752651DE263BE008C5BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A752671DE263BE008C5BD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		E7A752811DE263BE008C5BD2 /* stainedGlassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stainedGlassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A752851DE263BE008C5BD2 /* stainedGlassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stainedGlassUITests.swift; sourceTree = "<group>"; };
 		E7A752871DE263BE008C5BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A752931DE26560008C5BD2 /* StainedGlass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StainedGlass.swift; sourceTree = "<group>"; };
+		E7A752951DE26D47008C5BD2 /* doge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = doge.jpg; path = ../../../../doge.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				E7A752651DE263BE008C5BD2 /* AppDelegate.swift */,
+				E7A752951DE26D47008C5BD2 /* doge.jpg */,
 				E7A752671DE263BE008C5BD2 /* ViewController.swift */,
+				E74856991DE2B2E200284A65 /* babyme.jpg */,
+				E7A752931DE26560008C5BD2 /* StainedGlass.swift */,
 				E7A752691DE263BE008C5BD2 /* Main.storyboard */,
 				E7A7526C1DE263BE008C5BD2 /* Assets.xcassets */,
 				E7A7526E1DE263BE008C5BD2 /* LaunchScreen.storyboard */,
@@ -237,7 +246,9 @@
 			files = (
 				E7A752701DE263BE008C5BD2 /* LaunchScreen.storyboard in Resources */,
 				E7A7526D1DE263BE008C5BD2 /* Assets.xcassets in Resources */,
+				E7A752961DE26D47008C5BD2 /* doge.jpg in Resources */,
 				E7A7526B1DE263BE008C5BD2 /* Main.storyboard in Resources */,
+				E748569A1DE2B2E200284A65 /* babyme.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A752681DE263BE008C5BD2 /* ViewController.swift in Sources */,
+				E7A752941DE26560008C5BD2 /* StainedGlass.swift in Sources */,
 				E7A752661DE263BE008C5BD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LV5958EQE4;
 				INFOPLIST_FILE = stainedGlass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ry88.stainedGlass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LV5958EQE4;
 				INFOPLIST_FILE = stainedGlass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ry88.stainedGlass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +528,7 @@
 				E7A7528C1DE263BE008C5BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7A7528D1DE263BE008C5BD2 /* Build configuration list for PBXNativeTarget "stainedGlassTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +537,7 @@
 				E7A7528F1DE263BE008C5BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7A752901DE263BE008C5BD2 /* Build configuration list for PBXNativeTarget "stainedGlassUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +546,7 @@
 				E7A752921DE263BE008C5BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
